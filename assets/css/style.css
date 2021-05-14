@@ -3,7 +3,6 @@
 1. COMMON CSS
 2. Home Page   
 3. Search Results Page
-4. Search Results Not Found Page
 ================================================================= */
 
 /* ================================================================================== 
@@ -36,7 +35,17 @@ body {
   font-weight: 400;
   color: #333;
 }
-
+h2{
+  font-weight:700;
+  font-size:40px;
+  color:#333;
+}
+p{
+  color:#666;
+}
+a:hover{
+  transition:0.2s;
+}
 /* ================================================================================== 
 									2.	Home Page
 ===================================================================================== */
@@ -44,7 +53,7 @@ body {
   background:url("../images/main-banner-bg.jpg");
   height:100vh;
   background-size:cover;
-  background-repeat:none;
+  background-repeat:no-repeat;
   position:relative;
   z-index:99;
   align-items:center;
@@ -175,9 +184,112 @@ body {
 
 
 /* ================================================================================== 
-									2.	Search Results Page
+									3.	Search Results Page
 ===================================================================================== */
+.inner-page-header{
+  background:url("../images/inner-header.jpg");
+  height:300px;
+  background-repeat:no-repeat;
+}
+.inner-page-header:before{
+  display:none;
+}
+.image-search-results-wrap{
+  margin-bottom:50px;
+}
+.image-search-heading-wrap{
+  padding:40px 0;
+}
+.image-search-heading-wrap .main-image img{
+  border:1px solid #2874F0;
+  padding:10px;
+}
+.image-search-heading p{
+  font-size:20px;
+}
 
-/* ================================================================================== 
-									3.	Search Results Not Found Page
-===================================================================================== */
+.image-search-results-ad-wrap{
+  padding:40px 0;
+}
+.image-search-results .image-item{
+  margin-bottom:30px;
+}
+.image-search-results .image-desc a{
+  color:#888;
+}
+.image-search-results .image-desc h5 a{
+  color:#333;
+}
+.image-search-results .image-desc h5 a:hover{
+  color:#2874F0;
+  text-decoration:none;
+}
+.ad-section .ad-image{
+  margin-bottom:30px;
+}
+.pagination .page-item{
+  margin-right:10px;
+}
+.pagination .page-item .page-link{
+  border-radius:0;
+  padding:10px 15px;
+  color:#666;
+}
+.pagination .page-item.active .page-link{
+  color:#fff;
+  background:#2874F0;
+}
+footer{
+  background:#222;
+  text-align:center;
+  color:#fff;
+}
+.footer-content{
+  padding:50px 0;
+}
+.footer-content h2{
+  text-transform:uppercase;
+  color:#fff;
+}
+.footer-content p{
+  width:80%;
+  margin:0 auto;
+  color:#fff;
+}
+.footer-bottom{
+  border-top:1px solid #666;
+  padding:30px 0;
+}
+.social-icons{
+  list-style:none;
+}
+.social-icons li{
+  display:inline-block;
+  margin:10px;
+}
+.social-icons li a{
+  color:#fff;
+  padding:5px;
+  font-size:20px;
+}
+.footer-menu ul{
+  list-style:none;
+}
+.footer-menu ul li{
+  display:inline-block;
+  margin-right:15px;
+}
+.copyright p,
+.footer-menu ul li a
+{
+  color:#fff;
+}
+.footer-menu ul li a{
+  font-weight:600;
+}
+.social-icons li a:hover,
+.footer-menu ul li a:hover
+{
+  color:#2874F0;
+  text-decoration:none;
+}
