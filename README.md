@@ -3,9 +3,11 @@
 Snap & shop is web application where user can upload images of a product they wish to buy and this
 application will search for similar products in various e-commerce platforms.
     
-    Links for demo:
-    Home Page               - https://suneetarana.github.io/
-    Search Results Page     - https://suneetarana.github.io/search-results.html
+Links for demo:
+
+Home Page               - https://suneetarana.github.io/
+
+Search Results Page     - https://suneetarana.github.io/search-results.html
 
 Sources and credits
 ===================
